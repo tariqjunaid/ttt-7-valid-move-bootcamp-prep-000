@@ -1,5 +1,9 @@
 def valid_move?(board, index)
-  if 
+  if position_taken? == false
+    return true
+  else
+    return false
+  end
 end
 
 def position_taken?(board, index)
